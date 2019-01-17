@@ -11,6 +11,7 @@ public class caladd
 			System.out.print("1. ADD TWO NUMBERS\n");
 			System.out.print("2. Exit\n\n");
 			System.out.print("3. MULTIPLY TWO NUMBERS\n\n");
+			System.out.print("4. SUBTRACT TWO NUMBERS\n");
 			System.out.print("Enter Your Choice : ");
 			choice = scan.next().charAt(0);
 			
@@ -30,6 +31,11 @@ public class caladd
 							a = scan.nextFloat();
 							b = scan.nextFloat();
 							res = a * b;
+				
+				case '4' : System.out.print("Enter Two Numbers : ");
+							a = scan.nextFloat();
+							b = scan.nextFloat();
+							res = a - b;
 							System.out.print("Result = " + res);
 							break;
 
